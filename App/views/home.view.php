@@ -3,8 +3,6 @@
 <?= loadPartial('showcase'); ?>
 <?= loadPartial('top-banner'); ?>
 
-
-
     <!-- Job Listings -->
     <section>
       <div class="container mx-auto p-4 mt-4">
@@ -58,7 +56,6 @@
           Show All Posts
         </a>
       </section>
-
 
       <?= loadPartial('bottom-banner'); ?>
       <?= loadPartial('footer'); ?>
