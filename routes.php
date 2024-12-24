@@ -1,8 +1,7 @@
 <?php
 
 $router->get('/', 'HomeController@index');
+$router->get('/blog', 'BlogController@index');
+$router->get('/blog/create', 'BlogController@create');
+$router->get('/post', 'BlogController@show');
 
-// $router->get('/', 'App/controllers/home.php');
-// $router->get('/blog', 'App/controllers/blog/index.php');
-// $router->get('/blog/create', 'App/controllers/blog/create.php');
-// $router->get('/post', 'App/controllers/blog/show.php');
