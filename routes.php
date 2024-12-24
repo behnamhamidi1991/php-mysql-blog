@@ -1,5 +1,6 @@
 <?php
 
-$router->get('/', 'controllers/home.php');
-$router->get('/blog', 'controllers/blog/index.php');
-$router->get('/blog/create', 'controllers/blog/create.php');
+$router->get('/', 'App/controllers/home.php');
+$router->get('/blog', 'App/controllers/blog/index.php');
+$router->get('/blog/create', 'App/controllers/blog/create.php');
+$router->get('/post', 'App/controllers/blog/show.php');

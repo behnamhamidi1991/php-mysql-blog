@@ -1,0 +1,20 @@
+{
+  "name": "behnamhamidi1991/workopia",
+  "description": "Personal Blog Application",
+  "authorz": [
+    {
+      "name": "Behnam Hamidi",
+      "email": "behnam@gmail.com"
+    },
+    {
+      "name": "Brad Traversy",
+      "email": "brad@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Framework\\": "Framework/",
+      "App\\": "App/"
+    }
+  }
+}
